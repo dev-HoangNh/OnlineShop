@@ -24,7 +24,7 @@ import java.util.List;
 public class AdminAddCategoryController extends HttpServlet{
     
      @Override
-    protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+    protected void doGet(HttpServletReques request, HttpServletResponse response) throws ServletException, IOException {
         HttpSession session = request.getSession();
         Account account = (Account) session.getAttribute("account");
         if (account == null || account.getRole().equals("member")) {
