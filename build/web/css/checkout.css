@@ -1,0 +1,12 @@
+/*
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/CascadeStyleSheet.css to edit this template
+*/
+.shippingAddress {
+  border: 2px solid #3A1562;
+  padding: 30px;
+}
+
+.form-select {
+  border: 1px solid #3A1562;
+}
